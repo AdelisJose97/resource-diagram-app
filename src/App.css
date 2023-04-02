@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  height: 100vh;
+  width: 100%;
 }
 
 .App-logo {
@@ -35,4 +37,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card-option {
+  margin: 1.25rem;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
 }
